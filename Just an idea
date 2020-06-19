@@ -5,5 +5,5 @@ def greet(greeting_number):
         print("greetings friend!")
         greet+=1 #incrementing
     print("done")
-    return ''
-print(greet(5))
+    return 'greeted'+' '+str(greet)+'times'
+print(greet(6))
