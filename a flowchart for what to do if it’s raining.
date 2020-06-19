@@ -18,5 +18,5 @@ if start.upper()=="YES":
                 break
     print("go outside!")
                 
-else:
+elif start.upper()=="NO":
     print("go outside!")
