@@ -1,0 +1,9 @@
+#a function to greet a friend multiple times
+def greet(greeting_number):
+    greet=0 
+    while greet<greeting_number:
+        print("greetings friend!")
+        greet+=1 #incrementing
+    print("done")
+    return ''
+print(greet(5))
